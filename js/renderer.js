@@ -84,7 +84,12 @@ function expired() {
 
     time = 3600;
     start_time = time;
-    console.log(start_time);
+    // console.log(start_time);
+    
+    document.getElementById("start").disabled = true;
+    document.getElementById("stop").disabled = false;
+    document.getElementById("update").disabled = true;
+
 
     startTimer();
 }
