@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=MTimer
+Exec=npm start --prefix Documents/timer_app/
+Icon=Mtimer
+Terminal=false
+Categories=Development;
